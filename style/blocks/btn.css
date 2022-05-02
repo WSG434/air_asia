@@ -1,0 +1,15 @@
+.btn {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 15px 35px ;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #DA0100;
+    box-shadow: 0 0 25px 0 rgb(218, 1, 0, .15) ;
+}

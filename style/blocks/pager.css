@@ -1,0 +1,40 @@
+.pager {
+    text-align: center;
+    margin-right: 203px;
+    margin-top: -15px;
+}
+
+.pager__display,.pager__list {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pager__display {
+    margin-right: 26px;
+}
+
+.pager__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pager__link {
+        display: block;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        text-decoration: none;
+        position: relative;
+        font-weight: bold;
+        line-height: 32px;
+}
+
+.pager__item--active .pager__link {
+    background: #fff;
+    color:#F5170E
+}
+
+.pager__link:hover {
+    background: #fff;
+    color:#303030
+}

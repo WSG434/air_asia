@@ -1,61 +1,35 @@
-html {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+body{
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #001821;
+    color:#fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-body,
-html {
-	height: 100%;
-}
-
-body {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	color: #000;
-	margin: 0;
-}
-
-button {
-	border: 0;
-	cursor: pointer;
-}
-
-* {
-	box-sizing: border-box;
+a{
+    color: inherit;
 }
 
 ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-weight: normal;
-	margin: 0;
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
 }
 
 p {
-	margin: 0;
-	padding: 0;
+    margin-top: 0;
 }
 
-button {
-	cursor: pointer;
-}
-a {
-	color: inherit;
-	cursor: pointer;
-	text-decoration: none;
-}
-
-img {
-	display: block;
-	max-width: 100%;
-	max-height: 100%;
+* {
+    box-sizing: border-box;
 }
