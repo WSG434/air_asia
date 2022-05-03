@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
-@import url(./blocks/about.css);
 @import url(./blocks/base.css);
 @import url(./blocks/btn.css);
-@import url(./blocks/contacts.css);
-@import url(./blocks/footer.css);
-@import url(./blocks/header.css);
-@import url(./blocks/hero.css);
-@import url(./blocks/menu.css);
-@import url(./blocks/news.css);
-@import url(./blocks/offers.css);
 @import url(./blocks/pager.css);
-@import url(./blocks/socials.css);
+@import url(./blocks/footer.css);
+@import url(./sections/footer.css);
+@import url(./sections/header.css);
+@import url(./sections/about.css);
+@import url(./sections/hero.css);
+@import url(./sections/news.css);
+@import url(./sections/offers.css);
 
 
 .main-page-wrapper {
-    /* background: url(./img/background1.png) center top no-repeat, url(./img/background2.png) right bottom no-repeat; */
     background: url(./../img/background1.png) center top no-repeat, url(./../img/background2.png) right bottom no-repeat;
 }
 

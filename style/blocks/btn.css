@@ -1,8 +1,8 @@
 .btn {
     background: #F5170E;
     border-radius: 35px;
-    padding: 15px 35px ;
-    font-size: 11px;
+    padding: 18px 39px ;
+    font-size: 14px;
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
@@ -12,4 +12,24 @@
 .btn:hover {
     background: #DA0100;
     box-shadow: 0 0 25px 0 rgb(218, 1, 0, .15) ;
+}
+
+
+/* Offers button */
+
+.offers__btn-wrapper {
+    text-align: left;
+}
+
+.offers__btn {
+    text-align: center;
+    background: #fff;
+    border: 1px solid #F5170E;
+    color: #F5170E;
+    padding: 17px 29px;
+}
+
+.offers__btn:hover {
+    background: #F5170E;
+    color: #fff;
 }

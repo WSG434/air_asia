@@ -1,7 +1,6 @@
 .pager {
     text-align: center;
-    margin-right: 203px;
-    margin-top: -15px;
+    
 }
 
 .pager__display,.pager__list {
@@ -10,8 +9,10 @@
 }
 
 .pager__display {
-    margin-right: 26px;
+    margin-right: 25px;
 }
+
+
 
 .pager__item {
     display: inline-block;

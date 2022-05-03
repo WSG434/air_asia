@@ -1,13 +1,25 @@
+.footer-container__content {
+    border-top: 1px solid #353538;
+}
+
+.footer {
+    height: 80px;
+    position: relative;
+}
+
+
+/* Socials */
+
 .socials {
     position: absolute;
-    top: 57px;
-    right: 436px;
+    top: 33px;
+    right: 266px;
 }
 
 .socials__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: -2px;
+    margin-right: 6px;
 }
 
 

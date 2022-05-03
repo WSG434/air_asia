@@ -1,11 +1,11 @@
 .news {
-    margin-bottom: 100px;
+    margin-bottom: 131px;
 }
 
 .news__title {
-    font-size: 29px;
+    font-size: 36px;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .news__list {
@@ -14,12 +14,16 @@
 
 .news__item {
     position: relative;
-    width: 445px;
+    width: 557px;
     display: inline-block;
     vertical-align: top;
     border-radius: 4px;
-    margin-right: 15px;
+    margin-right: 20px;
     overflow: hidden;
+}
+
+.news__item:last-child {
+    margin-right: 0;
 }
 
 .news__cover {
@@ -32,26 +36,26 @@
 
 .news__text-content {
     position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    padding: 37px 23px;
-    min-height: 140px; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 47.5px 30px;
+    max-height: 190px; 
     /* vertical-align: top; */
 }
 
 .news__date {
-    font-size: 11px;
-    margin-bottom: 18px;
+    font-size: 14px;
+    margin-bottom: 12.5px;
+    display: inline-block;
 }
 
 .news__title2 {
-    font-size: 19px;
+    font-size: 24px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 3.5px;
 }
 
 .news__desc {
-    font-size: 13px;
-    margin-bottom: 5px;
+    font-size: 16px;
 }

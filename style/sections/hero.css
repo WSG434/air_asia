@@ -1,0 +1,20 @@
+.hero {
+    margin-bottom: 262px;
+}
+
+
+.hero__text-section{
+    width: 515px;
+}
+
+.hero__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.31;
+    margin-bottom: 30px;
+}
+
+.hero__subtitle {
+    font-size: 18px;
+    margin-bottom: 44px;
+}

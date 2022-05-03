@@ -1,16 +1,15 @@
 .about {
-    margin-bottom: 25px;
+    margin-bottom: 73px;
 }
 
 .about__section:before {
     content: "";
     display: inline-block;
     vertical-align: top;
-    width: 391px;
-    height: 416px;
+    width: 490px;
+    height: 505px;
     background: url("./../../img/about_bot.png") center center / cover no-repeat;
     border-radius: 4px;
-    height: 404px;
     margin-top: 12px;
 } 
 
@@ -20,18 +19,17 @@
     /* background: #202123; */
     background: url("./../../img/about_up.png") center center / cover no-repeat;
     border-radius: 4px;
-    padding: 55px 64px;
-    width: 627px;
-    margin-left: -113px;
-    margin-top: 61px;
-    height: 362px;
-    margin-top: 91px;
+    padding: 70px 80px;
+    width: 785px;
+    margin-left: -140px;
+    margin-top: 110px;
+    height: 455px;
 }
 
 .about__title {
     font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 36px;
+    margin-bottom: 34px;
     color:#000;
 }
 
@@ -42,8 +40,8 @@
 .about__desc-text p {
     margin-bottom: 20px;
     line-height: 1.66;
-    font-size: 13px;
-    width: 410px;
+    font-size: 16px;
+    width: 502px;
     color:#000;
 }
 

@@ -1,30 +1,27 @@
 .offers {
-    margin-bottom: 101px;
+    margin-bottom: 126px;
 }
 
 .offers__title {
-    font-size: 29px;
+    font-size: 36px;
     font-weight: bold;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 .title__fire {
     display: inline-block;
     position: relative;
-    top: -41px;
-    left: 228px;
-    width: 17px;
-
-
+    top: -52px;
+    left: 287px;
 }
 
 .offers__item {
-    min-height: 358px;
+    min-height: 450px;
     background: #fff;
-    border-radius: 4px;
+    border-radius: 4px; 
     display: inline-block;
-    margin-right: 17px;
-    width: 289px;
+    margin-right: 22px;
+    width: 362px;
     color: #303030;
 }
 
@@ -33,29 +30,30 @@
 }
 
 .offers__header {
-    min-height: 113px;
+    min-height: 144px;
 }
 
 .offers__img {
-    width: 289px;
+    width: 362px;
 }
 
 .offers__content {
-    padding: 21px 17px;
+    padding: 30px 22px;
     
 }
 
 .offers__title2 {
     color: #000000;
     font-weight: bold;
-    font-size: 19px;
-    margin-bottom: 13px;
+    font-size: 24px;
+    margin-bottom: 19px;
 }
 
 .offers__feature {
     display: inline-block;
+    margin-left: 6px;
     margin-right: 23px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     vertical-align: top;
 }
 
@@ -67,47 +65,29 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: 6px;
-    width: 24px;
     margin-bottom: 0;
 }
 
-.ico--calendar {
+/* .ico--calendar {
     width: 20px;
     margin-left: 4px;
 }
 
 .ico--breakfast {
     width: 28px;
-}
+} */
 
 .offers__ico:last-child {
     margin-right: 0;
 }
 
 .feature__text {
-    font-size: 12px;
-    width: 66px;
+    font-size: 16px;
     color: #666666;
 }
 
 .offers__text {
-    font-size: 11px;
+    font-size: 14px;
     margin-bottom: 41px;
 }
 
-.offers__btn-wrapper {
-    text-align: left;
-}
-
-.offers__btn {
-    text-align: center;
-    background: #fff;
-    border: 1px solid #F5170E;
-    color: #F5170E;
-    padding: 14px 25px;
-}
-
-.offers__btn:hover {
-    background: #F5170E;
-    color: #fff;
-}
