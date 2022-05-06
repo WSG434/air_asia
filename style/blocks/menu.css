@@ -1,17 +1,10 @@
 /* menu */
 
-.logo {
-  display: block;
-  position: absolute;
-  top: 29px;
-  left: 0;
-}
-
-.menu {
+/* .menu {
   position: absolute;
   top: 34px;
   left: 165px;
-}
+} */
 
 .menu__item {
   display: inline-block;

@@ -1,11 +1,20 @@
 .hero {
-    margin-bottom: 262px;
+    margin-bottom: 264px;
 }
 
+
+.hero__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 515px;
+}
 
 .hero__text-section{
-    width: 515px;
+    /* width: 515px; */
+    width: 50%;
 }
+
 
 .hero__title {
     font-size: 72px;

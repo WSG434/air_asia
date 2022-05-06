@@ -1,9 +1,23 @@
 .header {
-    height: 120px;
-    position: relative;
-    margin-bottom: 80px;
+    /* height: 120px;
+    position: relative; */
+    padding-top: 29px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+
+.header__coll--align--right {
+    justify-content: flex-end;
+}
 /* logo.css */
 
 /* menu.css */

@@ -1,9 +1,10 @@
 /* Socials */
 
 .socials {
-  position: absolute;
+  /* position: absolute;
   top: 33px;
-  right: 266px;
+  right: 266px; */
+  margin-right: 74px;
 }
 
 .socials__item {
