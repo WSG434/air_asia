@@ -1,6 +1,6 @@
 .offers {
 
-    margin-bottom: 119px;
+    margin-bottom: 124px;
     display: flex;
     flex-direction: column;
 }
@@ -46,7 +46,7 @@
 }
 
 .offers__content {
-    padding: 30px 22px;
+    padding: 33px 22px 17px;
     /* flex: 1;
     display: flex;
     flex-direction: column; */

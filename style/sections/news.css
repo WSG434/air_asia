@@ -46,15 +46,16 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 47.5px 30px;
-    min-height: 190px; 
+    padding: 23.5px 30px;
+    min-height: 164px; 
     /* vertical-align: top; */
 }
 
 .single-news__date {
     font-size: 14px;
     margin-bottom: 12.5px;
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
 }
 
 .single-news__title2 {
