@@ -18,6 +18,7 @@
     text-align: center;
 }
 
+
 .pager__link {
         display: block;
         width: 32px;
@@ -31,10 +32,21 @@
 
 .pager__item--active .pager__link {
     background: #fff;
-    color:#F5170E
+    color:#F5170E;
 }
 
 .pager__link:hover {
     background: #fff;
-    color:#F5170E
+    color:#F5170E;
+}
+
+
+.pager--light--theme .pager__link:hover {
+    background: #F5170E;
+    color: #fff;
+}
+
+.pager--light--theme .pager__item--active .pager__link{
+    background: #F5170E;
+    color: #fff;
 }

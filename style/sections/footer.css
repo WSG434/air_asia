@@ -6,8 +6,20 @@
     margin-top: auto;
 }
 
-.footer {
+.footer-container_section{
     height: 140px;
+}
+
+.inner-footer__container{
+    padding: 45px 0;
+}
+
+.inner-footer{
+    margin-top: auto;
+}
+
+.footer {
+    
     position: relative;
     display: flex;
     align-items: center;
@@ -23,6 +35,8 @@
     display: flex;
     justify-content: flex-end;
 }
+
+
 
 
 /* socials.css */

@@ -42,3 +42,13 @@
     color: #fff;
 }
 
+.btn--color--white {
+    background: #fff;
+    color: #F5170E;
+    border: 1px solid #F5170E;
+}
+
+.btn--color--white:hover {
+    background: #F5170E;
+    color: #fff;
+}

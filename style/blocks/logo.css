@@ -1,7 +1,11 @@
 .logo {
-  /* display: block;
-  position: absolute;
-  top: 29px;
-  left: 0; */
   margin-right: 80px;
+}
+
+.logo__top-line {
+  margin-right: 70px;
+}
+
+.logo__img--top-line {
+    width: 98px;
 }

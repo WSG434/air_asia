@@ -1,0 +1,25 @@
+/* services.html */
+
+.top-line {
+  min-height: 412px;
+  background: url(./../../img/headline.png) center top no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 23px;
+}
+
+.top-line__contrainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-title {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+
