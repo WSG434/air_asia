@@ -1,0 +1,102 @@
+
+
+
+.welcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url("./../../img/inrto_bg.png") center bottom / cover no-repeat;
+
+}
+
+
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: bounceIn 1.5s;
+}
+
+/* .central::before{
+  content: url("./../../img/intro_shades.png");
+  min-width: 591px;
+  min-height: 248px;
+  display: block;
+  border: 10px solid red;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/* .welcome__container::before{
+  content: "";
+  min-width: 591px;
+  min-height: 248px;
+  display: block;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid red;
+  background: url("./../../img/intro_shades.png") center center / cover no-repeat;
+} */
+
+.welcome__wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 591px;
+  min-height: 248px;
+  background: url("./../../img/intro_shades.png") center center / cover no-repeat;
+  /* margin-bottom: 65px; */
+}
+
+.welcome__title{
+  font-size: 18px;
+}
+
+
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}

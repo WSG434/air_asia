@@ -6,6 +6,7 @@
 @import url(./blocks/logo.css);
 @import url(./blocks/menu.css);
 @import url(./blocks/contacts.css);
+@import url(./blocks/dropdown.css);
 @import url(./sections/hero.css);
 @import url(./blocks/btn.css);
 @import url(./sections/offers.css);
@@ -18,6 +19,11 @@
 @import url(./blocks/breadcrumbs.css);
 @import url(./sections/services.css);
 @import url(./sections/partners.css);
+@import url(./sections/reviews.css);
+@import url(./sections/separator.css);
+@import url(./sections/form.css);
+@import url(./blocks/controls.css);
+@import url(./sections/intro.css);
 
 
 

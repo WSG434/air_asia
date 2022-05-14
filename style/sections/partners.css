@@ -57,6 +57,7 @@
   align-items: center;
   justify-content: flex-start;
   filter: grayscale(100%);
+  transition:  0.3s;
 }
 
 .partners__link:hover {

@@ -28,6 +28,7 @@
         position: relative;
         font-weight: bold;
         line-height: 32px;
+        transition:  0.3s;
 }
 
 .pager__item--active .pager__link {

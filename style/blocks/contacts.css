@@ -6,7 +6,7 @@
   right: 0px; */
   font-style: normal; 
   text-align: right;
-
+  margin-top: 8px;
 }
 
 .contacts__phone {
@@ -24,3 +24,4 @@
   color: #999;
   font-size: 11px;
 }
+
