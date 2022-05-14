@@ -33,11 +33,15 @@
 }
 
 
-/* .form__input:focus {
+input:focus{
   border-color: #F5170E;
-  box-shadow: 1px 1px 2px 0 red;
-  border: 3px solid blue;
-} */
+}
+
+.form__input:focus {
+  border-color: #F5170E;
+  /* box-shadow: 1px 1px 2px 0 red; */
+  /* border: 3px solid #F5170E; */
+}
 
 
 .form__input::placeholder{
