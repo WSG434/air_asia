@@ -22,3 +22,7 @@
 .controls__checkbox {
   display: none;
 }
+
+.controls__checkbox:hover ~ .controls__tag {
+  background: #B9EAE4;
+}

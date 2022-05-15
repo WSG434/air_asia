@@ -30,18 +30,19 @@
   padding: 22px 30px;
   font-size: 18px;
   color: #1A1B1E;
+  border: 1px solid transparent;
 }
 
 
-input:focus{
-  border-color: #F5170E;
+.form__input:focus{
+  border: 1px solid #F5170E;
 }
-
+/* 
 .form__input:focus {
   border-color: #F5170E;
-  /* box-shadow: 1px 1px 2px 0 red; */
-  /* border: 3px solid #F5170E; */
-}
+  box-shadow: 1px 1px 2px 0 red;
+  border: 3px solid #F5170E;
+} */
 
 
 .form__input::placeholder{
